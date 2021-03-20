@@ -1,8 +1,7 @@
 h1 {
     font-size: 50px;
     font-weight: 800;
-    font-family: 'Yusei Magic', sans-serif;
-    text-align: center;
+    font-family: 'Roboto Mono', monospace;    text-align: center;
     margin-top: 5px;
     color: white;
     
@@ -17,6 +16,7 @@ body {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .buttons {
@@ -31,12 +31,12 @@ body {
     cursor: pointer;
     font-weight: bold;
     border-radius: 10px;
-    letter-spacing: 1px;
-    width: 200px
+    width: 200px;
+    font-family: 'Roboto Mono', monospace;
 }
 .text {
     color: white;
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 30px;
 
 }
@@ -46,9 +46,8 @@ body {
     color: blueviolet;
     font-weight: bold;
     border-radius: 10px;
-    letter-spacing: 1px;
     width: 150px;
     padding: 10px 20px;
+    font-family: 'Roboto Mono', monospace;
 
 }
-
