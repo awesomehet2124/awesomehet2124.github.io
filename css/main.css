@@ -1,43 +1,53 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Yusei Magic', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background: linear-gradient(45deg,rgb(255, 51, 0) 0%, rgb(0, 0, 0) 54%, rgb(67, 48, 238) 100%);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-ul.posts li {
-    list-style: none;
+.buttons {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    width: 200px
 }
+.text {
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+
+.cmd-btn {
+    border: orange;
+    color: blueviolet;
+    font-weight: bold;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    width: 150px;
+    padding: 10px 20px;
+
+}
+
