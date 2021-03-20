@@ -17,6 +17,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Roboto Mono', monospace;
+
 }
 
 .buttons {
@@ -33,7 +34,9 @@ body {
     border-radius: 10px;
     width: 200px;
     font-family: 'Roboto Mono', monospace;
+
 }
+
 .text {
     color: white;
     font-family: 'Roboto Mono', monospace;
